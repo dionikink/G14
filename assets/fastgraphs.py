@@ -1,4 +1,4 @@
-from basicgraphs import graph, edge, GraphError, vertex
+from assets.basicgraphs import graph, edge, GraphError, vertex
 
 
 class vertex(vertex):
