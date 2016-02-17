@@ -2,7 +2,7 @@
 This is a module for working with *undirected* graphs (simple graphs or multigraphs).
 
 It contains three classes: vertex, edge and graph. 
-
+asdas
 The interface of these classes is extensive and allows programming all kinds of graph algorithms.
 
 However, the data structure used is quite basic and inefficient: a graph object stores only a vertex list and an edge list, and methods such as adjacency testing / finding neighbors of a vertex require going through the entire edge list!
