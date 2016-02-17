@@ -78,9 +78,10 @@ def readgraphlist(graphclass,readline):
 		G,newoptions,contin=readgraph(graphclass,readline)
 		options+=newoptions
 		L.append(G)
-	return L,options		
+	return L,options
 
-def loadgraph(filename,graphclass=basicgraphs.graph,readlist=False):
+
+def loadgraph(filename, graphclass=assets.basicgraphs.graph, readlist=False):
 	"""
 	Reads the file <filename>, and returns the corresponding graph object.
 	Optional second argument: you may use your own <graph> class, instead of
